@@ -6,17 +6,14 @@ html, body, body div, div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, img, s
     outline: none;
     background: none;
 }
-
 /* font adjusting hack */
 html * {
     max-height: 1000000px;
 }
-
 /* common */
 html {
     height: 100%;
 }
-
 body {
     font: 100 normal 20px/30px "Times New Romans";
     background: #f7f7f7;
@@ -24,8 +21,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
 .center {
     min-width: 1200px;
     text-align: center;
@@ -36,9 +31,8 @@ h1 {
     color: #2e353d;
     font-size: 40px;
     line-height: 50px;
-        margin: 50px 0 75px;
+	margin: 50px 0 75px;
 }
-
 a {
     color:#e9163e;
     text-decoration: none;
@@ -47,8 +41,6 @@ a:hover {
     color: #00FF00;
     text-decoration: underline;
 }
-
-
 header {
     border-bottom: 1px solid #b5b7ba;
     background: #dfdfdf;
@@ -83,8 +75,6 @@ main img {
     border-radius: 50%;
     float: left;
 }
-
-
 .content {
     width: 1200px;
     margin: 0 auto 100px;
@@ -99,14 +89,10 @@ main img {
     text-align: justify;
     color: #242424;
 }
-
-.box p,
 .content-box p {
     margin-bottom: 30px;
     text-indent: 35px;
 }
-
-
 .box ul {
     margin-bottom: 30px;
     padding-left: 50px;
